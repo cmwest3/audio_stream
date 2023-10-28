@@ -1,0 +1,5 @@
+The cmd that can play on the usb device when plugged in to rpi
+
+arecord -f dat -D hw:1 -c 2 | aplay -f dat -D hw:0,0 -c 1
+
+-DCMAKE_PREFIX_PATH=/var/lib/schroot/chroots/rpizero-buster-armhf/usr -DALSA_LIBRARY=/var/lib/schroot/chroots/rpizero-buster-armhf/usr/lib/arm-linux-gnueabihf

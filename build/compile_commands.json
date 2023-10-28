@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/camwest/audio_stream/build",
+  "command": "/home/camwest/opt/x-tools/armv6-rpi-linux-gnueabihf/bin/armv6-rpi-linux-gnueabihf-g++   -g -o CMakeFiles/audio_stream.dir/audio_stream.cpp.o -c /home/camwest/audio_stream/audio_stream.cpp",
+  "file": "/home/camwest/audio_stream/audio_stream.cpp"
+}
+]
